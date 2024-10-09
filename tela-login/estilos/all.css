@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6b21af;
+}
+
+#caixa-login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 300px;
+    height: 470px;
+    border-radius: 17px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.253);
+    overflow: hidden;
+}
+
+#caixa-login > #imagem{
+    background: #6b21af url(../imagens/pexels-didsss-3527796.jpg) no-repeat;
+    background-size: cover;
+    height: 200px; 
+    display: block;
+ }
+
+#caixa-login > #formulario{
+    padding: 10px;
+    display: block;
+ }
+
+#caixa-login > #formulario > h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#caixa-login > #formulario > p{
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+#caixa-login > #formulario > form > .campo{
+    margin-bottom: 10px;
+}
+
+.campo{
+    text-align: center;
+}
+
+#idsenha, #idusuario{
+    border-radius: 8px;
+    padding: 3px 5px;
+    border: none;
+    width: 80%;
+}
+
+.botoes{
+    background-color: #af6eec;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    padding: 7px
+}
+
+.botoes:hover{
+    background-color: #8744c5;
+    cursor: pointer;
+}
+
